@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registrasi</title>
+</head>
+<body> 
+	<form action="contact.php" method="POST">
+	<fieldset>
+	<legend>Registrasi</legend>
+		<p>
+            <label>Nama:</label>
+            <input type="textfield" id= "nama" name="nama" placeholder="Nama lengkap..." />
+		</p>
+		<p>
+			<label>Umur:</label>
+			<label><input type="number" min="1" max="30" name="umur..." /></label>
+		</p>
+		<p>
+			<label>Tanggal lahir:</label>
+			<label><input type="date" name="Tanggal lahir..." /></label>
+		</p>
+        <p>
+            <label>Username:</label>
+            <label><input type="text" name="username" placeholder="Username..." /></label>
+        </p>
+        <p>
+            <label>Email:</label>
+            <label><input type="email" name="email" placeholder="Your email..." /></label>
+        </p>
+        <p>
+            <label>Password:</label>
+            <label><input type="password" name="password" placeholder="Passowrd..." /></label>
+        </p>
+		<p>
+			<label>Jenis Kelamin</label>
+			<label><input type="radio" name="JK" value="Laki-laki">Laki-laki</label>
+			<label><input type="radio" name="JK" value="Perempuan">Perempuan
+			</label>
+		</p> 
+        <p>
+            <label>Agama:</label>
+            <label><select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </label></select>
+        </p>
+		<p>
+			<label>Hoby:</label>
+			<label><input type="checkbox" name="Hoby" value="membaca" /.> membaca</label>
+			<label><input type="checkbox" name="Hoby" value="menyanyi" /.> menyanyi</label>
+			<label><input type="checkbox" name="Hoby" value="memasak" /.> memasak</label>	
+        </p>
+		<p>
+            <label>Biografi:</label>
+            <label><textarea name="biografi"></textarea></label>
+        </p>
+		<p>
+			<label><input type="submit" name="reset" value="Kembali" /></label>
+		</p> 
+        <p>
+            <label><input type="submit" name="submit" value="Daftar" /></label>
+        </p>
+    </form>
+	</fieldset>
+	<h2 align = "center">Data</h2> 
+	<table border="1" cellspacing="0" cellpadding="3">
+		<tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Tanggal lahir</th>
+            <th>Username</th>
+			<th>Email</th>
+			<th>Passowrd</th>
+			<th>Jenis Kelamin</th>
+			<th>Agama</th>
+			<th>Hobby</th>
+			<th>Biografi<th>
+        </tr>
+		<tr>
+			<td>Andi Nur</td>
+			<td>13 Tahun</td>
+			<td>23 Maret 2020</td>
+			<td>Andi</td>
+			<td>Andinur@gmail.com</td>
+			<td>Andi78</td>
+			<td>Perempuan</td>
+			<td>islam</td>
+			<td>membaca</td>
+			<td>Namanya adalah andi Nur, lahir di Tasikmalaya, 23 Maret 2020, ia adalah anak ketiga dari lima bersaudara, buah dari pasangan Kamaruddin dan Siti Zubaidah. Andi adalah panggilan akrabnya, ia terlahir di keluarga yang sangat sederhana.</td>
+		</tr>
+		<tr>
+			<td>Agung Setyo</td>
+			<td>20 Tahun</td>
+			<td>23 Maret 2000</td>
+			<td>Agung</td>
+			<td>agungnur@gmail.com</td>
+			<td>Agung</td>
+			<td>Laki-laki</td>
+			<td>islam</td>
+			<td>membaca</td>
+			<td>Namanya adalah Agung Setyo, lahir di Tasikmalaya, 23 Maret 2000, ia adalah anak ketiga dari lima bersaudara, buah dari pasangan Kamaruddin dan Siti Zubaidah. Dewi adalah panggilan akrabnya, ia terlahir di keluarga yang sangat sederhana.</td>
+		</tr>
+		
+		
+		
+	</table>
+</body>
+</html>

@@ -1,0 +1,20 @@
+/*style.css*/
+.example {
+    padding: 20px;
+    color:white;
+}
+@media only screen and (max-width:600px) {
+    .example {background: red;}
+}
+
+@media only screen and (min-widht:600px) {.example {background: green;}
+}
+
+@media only screen and (min-widht:1200px) {.example{background: pink;}
+}
+
+@media only screen and (min-width:768px) {.example{background: blue;}
+}
+
+@media only screen and (min-width:992px) {.example{background: orange;}
+}

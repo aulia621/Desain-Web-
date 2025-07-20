@@ -1,0 +1,18 @@
+/*stylee.css*/
+    div{
+        width:100px;
+        height: 100px;
+        background-color: black;
+        animation-name:contoh;
+        animation-duration: 2s;
+        transition: width 3s,height 4s;
+    }
+    div:hover{
+        width: 250px;
+        height: 500px;
+    }
+    @keyframes contoh{
+        from{background-color: red;}
+        to{background-color: blue;}
+    }
+    
